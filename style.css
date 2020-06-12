@@ -1,0 +1,85 @@
+*{
+      margin: 0;
+      padding: 0;
+}
+body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: url(Background.jpg) no-repeat;
+      background-size: cover;
+}
+
+.cont{
+
+      background-color: rgba(0, 128, 0, 0.479);
+      padding: 10px;
+      width: 850px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 10px 10px green;
+      overflow: hidden;
+      height: 300px;
+}
+
+.btn{
+      cursor: pointer;
+      margin-top: 15px;
+      background: linear-gradient(to right, rgba(114, 3, 3, 0.521),rgba(0, 0, 121, 0.521));
+      text-align: center;
+      padding: 10px;
+      color: white;
+      margin-bottom: 10px;
+      width: 200px;
+      letter-spacing: 3px;
+      font-family: 'Century Gothic';
+}
+.btn:hover{
+      box-shadow: 0 5px 5px #151515;
+}
+
+.btn::selection{
+      background-color: transparent;
+}
+.cont-txt{
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+.cont-pokemones{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+}
+.txt{
+      width: 200px;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      border: none;
+      outline: none;
+      padding: 10px;
+      background-color: #1515159d;
+      letter-spacing: 2px;
+      font-family: 'Century Gothic';
+      color: white;
+}
+.cont-Pokes{
+      display: flex;
+      height: 100%;
+}
+.datos{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+}
+.data{
+      height: 160px;
+}
+
